@@ -15,7 +15,7 @@ The current directory structure is a mess and needs to be reconsidered soon, but
 * `router.gleam` and `web.gleam` I don't remember, they sort of handle the request, apply middlewares, etc.
 * `db/db` is where DB connection is established and SQL queries are established
 * `gleam/model` is kinda like the Model base class
-* `/models` is where models go (MCV-paradigm Model, that is)<br>
+* `/models` is where models go (MVC-paradigm Model, that is)<br>
 A model needs to have a type declaration and a decoder function to map DB columns to the model's type.
 * `/views/pages.gleam` is much akin to what I'm used to expect from a Controller, so I should probably move and rename that accordingly.
 * `/views/pages/*` is where frontend happens, haven't looked much at it yet.
