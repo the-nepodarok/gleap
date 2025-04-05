@@ -27,3 +27,5 @@ The rest is pretty much unfinished, but it compiles and kinda works
 ```
 gleam run   # Run the project
 ```
+
+![img.png](priv/static/img/img.png)
